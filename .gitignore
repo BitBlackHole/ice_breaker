@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# macOS specific files
+.DS_Store
+
+# Logs and debugging files
+*.log
+*.out
+*.err
+
+# Unit test / coverage results
+htmlcov/
+.tox/
+.cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# MyPy
+.mypy_cache/
+
+# Environment variables and secrets
+.env
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+openai_key.json
+api_key.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Large files
+*.bak
+*.swp
+*.tmp
+*.temp
+*.old
+
+# Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.db
+
+# Cached data
+*.cache
+*.pickle
+*.pkl
